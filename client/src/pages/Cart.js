@@ -21,10 +21,10 @@ const Cart = () => {
         <>
             <Navbar />
             <section className='container mt-5 mb-5 pt-5'>
-                <h2 className="display-5 text-white text-center">Shopping Cart</h2>
-                <h3 className='text-white'>Your Cart is Empty</h3>
+                <h2 className="display-5 text-white text-center">Carrito de Compras</h2>
+                <h3 className='text-white'>Tu carrito esta vacio</h3>
                 <Link to='/products' className='btn btn-primary cart-products'>
-                    Go to Products
+                    Ir a productos
                 </Link>
             </section>
         </>
@@ -34,10 +34,10 @@ const Cart = () => {
         <>
             <Navbar />
             <section className='container mt-5 mb-5 pt-5'>
-                <h2 className="display-5 text-white text-center">Shopping Cart</h2>
+                <h2 className="display-5 text-white text-center">Carrito de Compras</h2>
                 <div className="row justify-content-center">
                     <div className="col-12">
-                        <h5 className='text-white'>Cart ({totalUniqueItems}) Total Items: ({totalItems})</h5>
+                        <h5 className='text-white'>Carrito ({totalUniqueItems}) Articulos Totales: ({totalItems})</h5>
                         <table className="table table-light table-hover m-0">
                             <tbody>
                                 {items.map((item, index) => {
@@ -52,7 +52,7 @@ const Cart = () => {
                                             </td>
                                             <td>{item.title}</td>
                                             <td>{item.price}</td>
-                                            <td>Quantity: ({item.quantity})</td>
+                                            <td>Cantidad: ({item.quantity})</td>
                                             <td>
                                                 <button
                                                     className='btn btn-info ms-2 cart-quantity'
@@ -65,7 +65,7 @@ const Cart = () => {
                                                 <button
                                                     className='btn btn-danger ms-2 cart-remove'
                                                     onClick={() => removeItem(item.id)}
-                                                >Remove Item</button>
+                                                >Remover Articulo</button>
                                             </td>
                                         </tr>
                                     )
@@ -74,15 +74,15 @@ const Cart = () => {
                         </table>
                     </div>
                     <div className="col-auto ms-auto">
-                        <h4 className="text-white">Total Price: ${cartTotal}</h4>
+                        <h4 className="text-white">Precio Total: ${cartTotal}</h4>
                     </div>
                     <div className="col-auto">
                         <button
                             className="btn btn-danger m-2 cart-clear"
                             onClick={() => emptyCart()}
-                        >Clear Cart</button>
+                        >Limpiar Carrito</button>
                         <Link to='/login' className='btn btn-primary cart-btn'>
-                            Buy Now
+                            Comprar Ahora
                         </Link>
                     </div>
                 </div>

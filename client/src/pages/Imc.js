@@ -21,11 +21,11 @@ const Imc = () => {
     }
 
     function getStatus(bmi) {
-        if (bmi < 18.5) return "Underweight";
+        if (bmi < 18.5) return "Bajo Peso";
         else if (bmi >= 18.5 && bmi < 24.9) return "Normal";
-        else if (bmi >= 25 && bmi < 29.9) return "Overweight";
-        else if (bmi >= 30 && bmi < 39.9) return "Obese";
-        else return "Extreme obesity";
+        else if (bmi >= 25 && bmi < 29.9) return "Sobre Peso";
+        else if (bmi >= 30 && bmi < 39.9) return "Obeso";
+        else return "Obesidad Extrema";
     }
     return (
         <section className="container pb-5 imc">
