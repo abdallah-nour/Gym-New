@@ -1,0 +1,126 @@
+body {
+    background-color: #05668D;
+}
+
+.home, .about, .services, .contact, .login, .register {
+    background: #05668D;
+}
+
+.home-title {
+    font-size: 1.8rem;
+    font-weight: 700;
+    letter-spacing: 0.12rem;
+}
+
+.icons, .login-icons {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.icon {
+    font-size: 3rem;
+    color: #fff;  
+    cursor: pointer;
+}
+
+.icon:hover {
+    color: #427AA1;
+}
+
+.card {
+    background-color: #427AA1;
+}
+
+.card-title, .contact-label, .fs-2, .fs-3, .fs-5 {
+    color: #364958;
+    font-weight: 600;
+}
+
+.services-btn, .contact-btn, .login-btn, .register-btn, .profile-btn {
+    font-weight: 600;
+    background: #05668D;
+    border: 1px solid #05668D;
+    border-radius: 20px;
+}
+
+.profile-btn {
+    background: #427AA1;
+    border: 1px solid #427AA1;
+}
+
+.contact-icon {
+    font-size: 1.6rem;
+}
+
+.contact-form, .register-form {
+    background: #fff;
+}
+
+.form-control {
+    border-width: 0 0 2px 0;
+    border-color: #55828B;
+}
+
+.login-bg {
+    background-image: url(../images/login.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 90%;
+}
+.login-logo, .login-register, .register-logo{
+    text-decoration: none;
+}
+
+.login-form{
+    background: #fff;
+}
+
+.login-forget {
+    text-decoration: none;
+    color: #364958;
+    cursor: pointer;
+}
+
+.login-icon {
+    color: #364958;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+.login-subtitle, .login-register {
+    color: #55828B;
+    font-weight: 600;
+}
+
+.register-terms {
+    color: #364958;
+}
+
+.newsletter-input, .imc-input {
+    background: transparent;
+    width: 40%;
+}
+
+.newsletter-btn, .imc-btn {
+    font-weight: 600;
+    background-color: #05668D;
+    border: 1px solid #05668D;
+    border-radius: 20px;
+    color: #fff;
+    width: 40%;
+}
+
+.products-btn, .cart-quantity, .cart-remove, .cart-clear, .cart-btn, .cart-products, .delete-btn {
+    font-weight: 600;
+    border-radius: 20px;
+}
+
+.user {
+    text-transform: uppercase;
+}
+
+.table {
+    font-weight: 600;
+    color: #364958;
+}

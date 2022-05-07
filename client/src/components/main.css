@@ -1,0 +1,55 @@
+.navbar {
+    background: #05668D;
+    box-shadow: rgb(0 0 0 / 15%) 0px 0px 8px;
+}
+
+.navbar-logo {
+    font-weight: 700;
+}
+
+.nav-link, .footer-link {
+    text-decoration: none;
+    font-size: 0.95rem;
+    color: #fff!important;
+}
+
+.btn-login, .btn-logout {
+    font-size: 0.9rem;
+    font-weight: 600;
+    background: #427AA1;
+    border: 1px solid #427AA1;
+    border-radius: 20px;
+}
+
+.btn-logout {
+    background: #d33333;
+    border: 1px solid #d33333;
+}
+
+.btn-logout:hover {
+    background: #b61515;
+}
+
+.page-footer {
+    background-color: #427AA1;
+}
+
+.footer-link {
+    cursor: pointer;
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.footer-icon{
+    color: #fff;
+    cursor: pointer;
+    font-size: 2.3rem;
+}
+
+.footer-icon:hover {
+    color: #05668D;
+}
