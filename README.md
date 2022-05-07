@@ -1,2 +1,2 @@
-# veterinaria
-Veterinaria project using stack MERN
+# GymNew
+GymNew project using stack MERN
