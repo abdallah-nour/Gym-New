@@ -2,7 +2,7 @@
 Proyecto de software para administración de gimnasios.
 
 ## Screenshot
-![Screenshot](/screenshot.png)
+![Screenshot](screenshot.png)
 
 ## Installation
 ***
