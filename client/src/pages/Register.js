@@ -43,10 +43,10 @@ const Register = ({ setAlert, register, isAuthenticated }) => {
                 Gym New
             </Link>
             <div className="container rounded shadow p-5 register-form">
-                <h2 className="fs-3 text-center">Register</h2>
+                <h2 className="fs-3 text-center">Registrarse</h2>
                 <form className="row g-5 register-inputs" onSubmit={e => onSubmit(e)}>
                     <div className="col-md-6">
-                        <label className="form-label fs-5">Name</label>
+                        <label className="form-label fs-5">Nombre</label>
                         <input
                             type="text"
                             className="form-control"
@@ -57,7 +57,7 @@ const Register = ({ setAlert, register, isAuthenticated }) => {
                         />
                     </div>
                     <div className="col-md-6">
-                        <label className="form-label fs-5">Last Name</label>
+                        <label className="form-label fs-5">Apellidos</label>
                         <input
                             type="text"
                             className="form-control"
@@ -67,7 +67,7 @@ const Register = ({ setAlert, register, isAuthenticated }) => {
                             required />
                     </div>
                     <div className="col-md-6">
-                        <label className="form-label fs-5">Email</label>
+                        <label className="form-label fs-5">Correo electrónico</label>
                         <input
                             type="email"
                             className="form-control"
@@ -77,7 +77,7 @@ const Register = ({ setAlert, register, isAuthenticated }) => {
                             required />
                     </div>
                     <div className="col-md-6">
-                        <label className="form-label fs-5">Phone</label>
+                        <label className="form-label fs-5">Teléfono</label>
                         <input
                             type="tel"
                             className="form-control"
@@ -87,7 +87,7 @@ const Register = ({ setAlert, register, isAuthenticated }) => {
                             required />
                     </div>
                     <div className="col-md-6">
-                        <label className="form-label fs-5">Password</label>
+                        <label className="form-label fs-5">Contraseña</label>
                         <input
                             type="password"
                             className="form-control"
@@ -99,7 +99,7 @@ const Register = ({ setAlert, register, isAuthenticated }) => {
                         />
                     </div>
                     <div className="col-md-6">
-                        <label className="form-label fs-5">Confirm Password</label>
+                        <label className="form-label fs-5">Confirmar contraseña</label>
                         <input
                             type="password"
                             className="form-control"
@@ -113,11 +113,11 @@ const Register = ({ setAlert, register, isAuthenticated }) => {
                     <div className="form-check ps-5">
                         <input className="form-check-input" type="checkbox" value="" />
                         <label className="form-check-label fs-6 register-terms">
-                            I agree to the terms and conditions of Privacy Policys
+                        Acepto los términos y condiciones de las Políticas de Privacidad
                         </label>
                     </div>
                     <div className="d-grid gap-2 col-4 mx-auto">
-                        <button type="submit" className="btn btn-primary btn-lg fs-6 register-btn">Register</button>
+                        <button type="submit" className="btn btn-primary btn-lg fs-6 register-btn">Registrarse</button>
                     </div>
                 </form>
             </div>

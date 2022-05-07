@@ -34,7 +34,7 @@ const Contact = () => {
     };
     return (
         <section className="container-fluid contact px-4 py-5" id="contact">
-            <h2 className="display-5 text-white text-center py-4">Contact</h2>
+            <h2 className="display-5 text-white text-center py-4">Contacto</h2>
             <div className="container">
                 <div className="row text-white">
                     <div className="col d-flex justify-content-center">
@@ -49,7 +49,7 @@ const Contact = () => {
                 </div>
                 <div className="row text-white">
                     <div className="col d-flex justify-content-center">
-                        <p className="fs-6 pt-2">Street 12 # 14 - 23</p>
+                        <p className="fs-6 pt-2">Calle 12 # 14 - 23</p>
                     </div>
                     <div className="col d-flex justify-content-center">
                         <p className="fs-6 pt-2">gymnew2021@gmail.com</p>
@@ -61,26 +61,26 @@ const Contact = () => {
                 <div className="container rounded-1 text-center p-5 contact-form">
                     <form ref={form} onSubmit={sendEmail}>
                         <div className="mb-3">
-                            <label className="form-label fs-5 contact-label">Name</label>
+                            <label className="form-label fs-5 contact-label">Nombre</label>
                             <input type="text" name="user_name" required className="form-control" />
                         </div>
                         <div className="mb-3">
-                            <label className="form-label fs-5 contact-label">Last Name</label>
+                            <label className="form-label fs-5 contact-label">Apellidos</label>
                             <input type="text" name="user_last" required className="form-control" />
                         </div>
                         <div className="mb-3">
-                            <label className="form-label fs-5 contact-label">Email</label>
+                            <label className="form-label fs-5 contact-label">Correo electrónico</label>
                             <input type="email" name="user_email" required className="form-control" />
                         </div>
                         <div className="mb-3">
-                            <label className="form-label fs-5 contact-label">Phone</label>
+                            <label className="form-label fs-5 contact-label">Teléfono</label>
                             <input type="tel" name="user_phone" required className="form-control" />
                         </div>
                         <div className="mb-3">
-                            <label className="form-label fs-5 contact-label">Message</label>
-                            <textarea className="form-control" required name="message" placeholder="Write your message..." rows="3"></textarea>
+                            <label className="form-label fs-5 contact-label">Mensaje</label>
+                            <textarea className="form-control" required name="message" placeholder="Escribe tu mensaje..." rows="3"></textarea>
                         </div>
-                        <button type="submit" value="Send" className="btn btn-primary btn-lg fs-6 contact-btn">Send Message<FaPaperPlane className="ps-2 fs-4" /></button>
+                        <button type="submit" value="Send" className="btn btn-primary btn-lg fs-6 contact-btn">Enviar Mensaje<FaPaperPlane className="ps-2 fs-4" /></button>
                         <Toaster />
                     </form>
                 </div>

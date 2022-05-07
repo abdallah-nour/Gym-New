@@ -23,10 +23,7 @@ const Home = ({ isAutheticated }) => {
             <section className="container-fluid text-white home py-5" id="home">
                 <div className="row">
                     <div className="col-sm-6 text-center justify-content-center align-self-center p-5">
-                        <h1 className="home-title m-5">WELCOME TO GYMNEW,
-                            LIVE THE BEST EXPERIENCE OF
-                            TRAINING AND DISCOVER
-                            YOUR TRUE POTENTIAL</h1>
+                        <h1 className="home-title m-5">BIENVENIDO A GYMNEW, VIVE LA MEJOR EXPERIENCIA DE ENTRENAMIENTO Y DESCUBRE TU VERDADERO POTENCIAL</h1>
                         <div className="icons">
                             <a href="https://www.facebook.com/Gymnew-114847847775741" rel="noreferrer" target="_blank" className="icon"><FaFacebookSquare /></a>
                             <a href="https://www.instagram.com/gymnew2000/" rel="noreferrer" target="_blank" className="icon"><FaInstagram /></a>

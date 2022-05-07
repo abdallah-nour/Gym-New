@@ -31,21 +31,21 @@ const Imc = () => {
         <section className="container pb-5 imc">
             <div className="containaer-fluid rounded py-5 bg-white shadow">
                 <div>
-                    <h2 className="text-center fs-4">BMI Calculator</h2>
+                    <h2 className="text-center fs-4">Calculadora IMC</h2>
                     <form>
                         <div className="d-flex align-items-center justify-content-center">
-                            <input type="number" id="Height" value={height} onChange={(e) => setHeight(e.target.value)} required className="form-control mt-3 imc-input" placeholder="Height in cm" />
+                            <input type="number" id="Height" value={height} onChange={(e) => setHeight(e.target.value)} required className="form-control mt-3 imc-input" placeholder="Altura en cm" />
                         </div>
                         <div className="d-flex align-items-center justify-content-center">
-                            <input type="number" id="Weight" value={weight} onChange={(e) => setWeight(e.target.value)} required className="form-control mt-3 imc-input" placeholder="Weight in kg" />
+                            <input type="number" id="Weight" value={weight} onChange={(e) => setWeight(e.target.value)} required className="form-control mt-3 imc-input" placeholder="Peso in kg" />
                         </div>
                         <div className="d-flex align-items-center justify-content-center">
-                            <button className="btn btn-primary mt-4 btn-lg fs-6 imc-btn" onClick={calculateBMI}>Calculate BMI</button>
+                            <button className="btn btn-primary mt-4 btn-lg fs-6 imc-btn" onClick={calculateBMI}>Calcular IMC</button>
                         </div>
                         {bmiResult && (
                             <div className="text-center mt-4">
-                                <p className="fs-5">Your BMI is:  {bmiResult} </p>
-                                <p className="fs-5">You are currently: {status} </p>
+                                <p className="fs-5">Tu IMC es:  {bmiResult} </p>
+                                <p className="fs-5">Actualmente estás: {status} </p>
                             </div>
                         )}
                     </form>

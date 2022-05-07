@@ -22,22 +22,22 @@ const Navbar = ({ auth: { isAuthenticated, loading, user }, logout }) => {
                 <div className="collapse navbar-collapse text-center" id="navbarNav">
                     <ul className="navbar-nav ms-auto">
                         <li className="nav-item">
-                            <a className="nav-link active" href="#home">Home</a>
+                            <a className="nav-link active" href="#home">Inicio</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link active" href="#about">About</a>
+                            <a className="nav-link active" href="#about">Acerca</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link active" href="#services">Services</a>
+                            <a className="nav-link active" href="#services">Servicios</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link active" href="#contact">Contact</a>
+                            <a className="nav-link active" href="#contact">Contacto</a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link active" href="/dashboard">Dashboard</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link active" href="/products">Products</a>
+                            <a className="nav-link active" href="/products">Productos</a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link active" href="/cart"> <FaShoppingCart style={{ fontSize: '1.5rem' }} className="me-2" /> </a>
@@ -70,26 +70,26 @@ const Navbar = ({ auth: { isAuthenticated, loading, user }, logout }) => {
                 <div className="collapse navbar-collapse text-center" id="navbarNav">
                     <ul className="navbar-nav ms-auto">
                         <li className="nav-item">
-                            <a className="nav-link active" href="#home">Home</a>
+                            <a className="nav-link active" href="#home">Inicio</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link active" href="#about">About</a>
+                            <a className="nav-link active" href="#about">Acerca</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link active" href="#services">Services</a>
+                            <a className="nav-link active" href="#services">Servicios</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link active" href="#contact">Contact</a>
+                            <a className="nav-link active" href="#contact">Contacto</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link active" href="/products">Products</a>
+                            <a className="nav-link active" href="/products">Productos</a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link active" href="/cart"> <FaShoppingCart style={{ fontSize: '1.5rem' }} className="me-2" /> </a>
                         </li>
                         <li className="nav-item">
                             <Link to="/login" className="btn btn-primary btn-login">
-                                Login<FaSignInAlt className="ps-2 fs-4" />
+                                Acceder<FaSignInAlt className="ps-2 fs-4" />
                             </Link>
                         </li>
                     </ul>

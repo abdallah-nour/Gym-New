@@ -37,13 +37,13 @@ const Login = ({ login, isAuthenticated }) => {
                                 Gym New
                             </Link>
                         </div>
-                        <h2 className="fs-3 text-center py-5">Login</h2>
+                        <h2 className="fs-3 text-center py-5">Iniciar Sesión</h2>
                         <form onSubmit={e => onSubmit(e)}>
                             <div className="mb-3 py-4">
-                                <label className="form-label fs-5 contact-label">Email</label>
+                                <label className="form-label fs-5 contact-label">Correo electrónico</label>
                                 <input
                                     type="email"
-                                    placeholder="Enter your email"
+                                    placeholder="Ingresa tu correo electrónico"
                                     className="form-control"
                                     id="exampleInputEmail1"
                                     aria-describedby="emailHelp"
@@ -54,10 +54,10 @@ const Login = ({ login, isAuthenticated }) => {
                                 />
                             </div>
                             <div className="mb-3">
-                                <label className="form-label fs-5 contact-label">Password</label>
+                                <label className="form-label fs-5 contact-label">Contraseña</label>
                                 <input
                                     type="password"
-                                    placeholder="Enter your password"
+                                    placeholder="Ingresa tu contraseña"
                                     className="form-control"
                                     id="exampleInputPassword1"
                                     name="password"
@@ -67,15 +67,15 @@ const Login = ({ login, isAuthenticated }) => {
                                 />
                             </div>
                             <div className="text-end py-2">
-                                <a href="/" className="fs-6 login-forget">Forget Password?</a>
+                                <a href="/" className="fs-6 login-forget">Olvidaste la contraseña?</a>
                             </div>
                             <div className="text-center d-grid gap-2 col-6 mx-auto py-3">
-                                <button type="submit" className="btn btn-primary text-white fs-6 login-btn">Sign In</button>
+                                <button type="submit" className="btn btn-primary text-white fs-6 login-btn">Iniciar sesión</button>
                             </div>
                         </form>
                         <div className="text-center d-grid gap-2 col-6 mx-auto py-4">
                             <Link to="/register" className="fs-6 login-register">
-                                Create your Account<FaArrowRight className="ps-2 fs-4" />
+                            Crea tu cuenta<FaArrowRight className="ps-2 fs-4" />
                             </Link>
                         </div>
                     </div>
