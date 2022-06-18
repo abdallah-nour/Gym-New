@@ -18,7 +18,6 @@ const Services = () => {
                             <div className='card-body text-center'>
                                 <img src={service1} alt='' className='img-fluid' />
                                 <h5 className='card-title py-2'>Entrenador Personal</h5>
-                                <p className='card-text'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia, impedit.</p>
                                 <a href='#' className='btn btn-primary services-btn'>Más información<FaArrowRight className='ps-2 fs-4' /></a>
                             </div>
                         </div>
