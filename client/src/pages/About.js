@@ -1,20 +1,34 @@
-import about from "../images/about.png"
-import "./main.css"
+import { FaCheckSquare } from 'react-icons/fa';
+import Footer from '../components/Footer';
+import Navbar from '../components/Navbar';
+import about from '../images/about.png';
+import './main.css';
 
 const About = () => {
     return (
-        <section className="container-fluid about text-white py-5" id="about">
-            <div className="row">
-                <div className="col">
-                    <h2 className="display-5 pt-5 text-center">Acerca de Nosotros</h2>
-                    <p className="lead m-5">Somos una empresa que busca mejorar la calidad de vida de nuestros clientes, para ello contamos con excelentes profesores y clases dinámicas para ayudarte a conseguir tu mejor condición física. Llena tu vida de energía y motivación. Supera tus límites con programas de entrenamiento diseñados por profesionales, de acuerdo a tus objetivos.</p>
+        <>
+            <Navbar />
+            <section className='about'>
+                <div className='container'>
+                    <div className='row align-items-center flex-wrap-reverse'>
+                        <div className='col-md-6'>
+                            <h3 className='about__title'>Acerca de Nosotros</h3>
+                            <p className='about__description pt-1'>Somos una empresa que busca mejorar la calidad de vida de nuestros clientes, para ello contamos con excelentes profesores y clases dinámicas para ayudarte a conseguir tu mejor condición física. Llena tu vida de energía y motivación. Supera tus límites con programas de entrenamiento diseñados por profesionales, de acuerdo a tus objetivos. Ofrecemos:</p>
+                            <ul className='text-white'>
+                                <li className='pt-1'> <FaCheckSquare className='me-1 about__icon' />Cómo apoyar su sistema inmunológico.</li>
+                                <li className='pt-1'> <FaCheckSquare className='me-1 about__icon' />Una guia de ejercicios.</li>
+                                <li className='pt-1'> <FaCheckSquare className='me-1 about__icon' />Bebidas y comidas con gran aporte de proteina.</li>
+                            </ul>
+                        </div>
+                        <div className='col-md-6'>
+                            <img src={about} className='w-100 mt-5 pt-4' alt='About GymNew' />
+                        </div>
+                    </div>
                 </div>
-                <div className="col pt-3 d-none d-lg-block col-md-5 col-lg-5 col-xl-6">
-                    <img src={about} alt="About" className="img-fluid" />
-                </div>
-            </div>
-        </section>
+            </section>
+            <Footer />
+        </>
     )
 }
 
-export default About
+export default About;

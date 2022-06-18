@@ -1,10 +1,10 @@
 import PropTypes from 'prop-types';
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { connect } from 'react-redux';
-import { Link, Redirect } from "react-router-dom";
+import { Link, Redirect } from 'react-router-dom';
 import { setAlert } from '../actions/alert';
 import { register } from '../actions/auth';
-import "./main.css";
+import './main.css';
 
 
 const Register = ({ setAlert, register, isAuthenticated }) => {
@@ -38,86 +38,82 @@ const Register = ({ setAlert, register, isAuthenticated }) => {
 
 
     return (
-        <section className="container-fluid register py-4">
-            <Link to="/" className="fs-5 ps-3 text-white register-logo">
-                Gym New
-            </Link>
-            <div className="container rounded shadow p-5 register-form">
-                <h2 className="fs-3 text-center">Registrarse</h2>
-                <form className="row g-5 register-inputs" onSubmit={e => onSubmit(e)}>
-                    <div className="col-md-6">
-                        <label className="form-label fs-5">Nombre</label>
+        <section className='container-fluid register py-4'>
+            <div className='container shadow p-5 register__form'>
+                <div className='text-center'>
+                    <Link to='/' className='register__logo'>
+                        Gym New
+                    </Link>
+                </div>
+                <h2 className='fs-4 register__subtitle my-4 text-center'>Registrarse</h2>
+                <form className='row g-5' onSubmit={e => onSubmit(e)}>
+                    <div className='col-md-6'>
+                        <label className='form-label fs-5'>Nombre</label>
                         <input
-                            type="text"
-                            className="form-control"
+                            type='text'
+                            className='form-control'
                             name='name'
                             value={name}
                             onChange={e => onChange(e)}
                             required
                         />
                     </div>
-                    <div className="col-md-6">
-                        <label className="form-label fs-5">Apellidos</label>
+                    <div className='col-md-6'>
+                        <label className='form-label fs-5'>Apellidos</label>
                         <input
-                            type="text"
-                            className="form-control"
-                            name="lastname"
+                            type='text'
+                            className='form-control'
+                            name='lastname'
                             value={lastname}
                             onChange={e => onChange(e)}
                             required />
                     </div>
-                    <div className="col-md-6">
-                        <label className="form-label fs-5">Correo electrónico</label>
+                    <div className='col-md-6'>
+                        <label className='form-label fs-5'>Correo electrónico</label>
                         <input
-                            type="email"
-                            className="form-control"
-                            name="email"
+                            type='email'
+                            className='form-control'
+                            name='email'
                             value={email}
                             onChange={e => onChange(e)}
                             required />
                     </div>
-                    <div className="col-md-6">
-                        <label className="form-label fs-5">Teléfono</label>
+                    <div className='col-md-6'>
+                        <label className='form-label fs-5'>Teléfono</label>
                         <input
-                            type="tel"
-                            className="form-control"
-                            name="phone"
+                            type='tel'
+                            className='form-control'
+                            name='phone'
                             value={phone}
                             onChange={e => onChange(e)}
                             required />
                     </div>
-                    <div className="col-md-6">
-                        <label className="form-label fs-5">Contraseña</label>
+                    <div className='col-md-6'>
+                        <label className='form-label fs-5'>Contraseña</label>
                         <input
-                            type="password"
-                            className="form-control"
-                            name="password"
+                            type='password'
+                            className='form-control'
+                            name='password'
                             value={password}
                             onChange={e => onChange(e)}
                             minlenght='6'
                             required
                         />
                     </div>
-                    <div className="col-md-6">
-                        <label className="form-label fs-5">Confirmar contraseña</label>
+                    <div className='col-md-6'>
+                        <label className='form-label fs-5'>Confirmar contraseña</label>
                         <input
-                            type="password"
-                            className="form-control"
-                            name="password2"
+                            type='password'
+                            className='form-control'
+                            name='password2'
                             value={password2}
                             onChange={e => onChange(e)}
                             minlenght='6'
                             required
                         />
                     </div>
-                    <div className="form-check ps-5">
-                        <input className="form-check-input" type="checkbox" value="" />
-                        <label className="form-check-label fs-6 register-terms">
-                        Acepto los términos y condiciones de las Políticas de Privacidad
-                        </label>
-                    </div>
-                    <div className="d-grid gap-2 col-4 mx-auto">
-                        <button type="submit" className="btn btn-primary btn-lg fs-6 register-btn">Registrarse</button>
+                    <div className='d-grid gap-2 col-4 mx-auto'>
+                        <button type='submit' className='btn btn-primary'>Registrarse</button>
                     </div>
                 </form>
             </div>

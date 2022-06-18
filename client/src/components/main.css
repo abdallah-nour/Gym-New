@@ -1,55 +1,50 @@
 .navbar {
-    background: #05668D;
-    box-shadow: rgb(0 0 0 / 15%) 0px 0px 8px;
+    background: #1d0e15;
 }
 
 .navbar-logo {
+    font-size: 1.5rem;
     font-weight: 700;
+    color: #ff5421 !important;
 }
 
-.nav-link, .footer-link {
+.nav-link,
+.footer-link {
     text-decoration: none;
     font-size: 0.95rem;
-    color: #fff!important;
+    color: #fff !important;
 }
 
-.btn-login, .btn-logout {
-    font-size: 0.9rem;
-    font-weight: 600;
-    background: #427AA1;
-    border: 1px solid #427AA1;
-    border-radius: 20px;
+.btn-primary {
+    background: #ff5421;
+    border: none;
 }
 
-.btn-logout {
-    background: #d33333;
-    border: 1px solid #d33333;
+.btn-primary:hover {
+    background: #fff;
+    color: #ff5421;
 }
 
-.btn-logout:hover {
-    background: #b61515;
-}
-
-.page-footer {
-    background-color: #427AA1;
+.footer {
+    background: #ff5421;
 }
 
 .footer-link {
     cursor: pointer;
 }
 
-.footer-icons {
+.footer__icons {
     display: flex;
     justify-content: center;
     gap: 1rem;
 }
 
-.footer-icon{
+.footer__icon {
     color: #fff;
     cursor: pointer;
     font-size: 2.3rem;
 }
 
-.footer-icon:hover {
-    color: #05668D;
+.footer__icon:hover {
+    color: #fff;
 }

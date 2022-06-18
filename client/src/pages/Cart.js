@@ -1,4 +1,3 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 import { useCart } from 'react-use-cart';
 import Navbar from '../components/Navbar';
@@ -21,7 +20,7 @@ const Cart = () => {
         <>
             <Navbar />
             <section className='container mt-5 mb-5 pt-5'>
-                <h2 className="display-5 text-white text-center">Carrito de Compras</h2>
+                <h2 className='display-5 text-white text-center'>Carrito de Compras</h2>
                 <h3 className='text-white'>Tu carrito esta vacio</h3>
                 <Link to='/products' className='btn btn-primary cart-products'>
                     Ir a productos
@@ -34,11 +33,11 @@ const Cart = () => {
         <>
             <Navbar />
             <section className='container mt-5 mb-5 pt-5'>
-                <h2 className="display-5 text-white text-center">Carrito de Compras</h2>
-                <div className="row justify-content-center">
-                    <div className="col-12">
+                <h2 className='display-5 text-white text-center'>Carrito de Compras</h2>
+                <div className='row justify-content-center'>
+                    <div className='col-12'>
                         <h5 className='text-white'>Carrito ({totalUniqueItems}) Articulos Totales: ({totalItems})</h5>
-                        <table className="table table-light table-hover m-0">
+                        <table className='table table-light table-hover m-0'>
                             <tbody>
                                 {items.map((item, index) => {
                                     return (
@@ -46,7 +45,7 @@ const Cart = () => {
                                             <td>
                                                 <img
                                                     src={item.img}
-                                                    alt="Product"
+                                                    alt='Product'
                                                     style={{ height: '6rem' }}
                                                 />
                                             </td>
@@ -73,12 +72,12 @@ const Cart = () => {
                             </tbody>
                         </table>
                     </div>
-                    <div className="col-auto ms-auto">
-                        <h4 className="text-white">Precio Total: ${cartTotal}</h4>
+                    <div className='col-auto ms-auto'>
+                        <h4 className='text-white'>Precio Total: ${cartTotal}</h4>
                     </div>
-                    <div className="col-auto">
+                    <div className='col-auto'>
                         <button
-                            className="btn btn-danger m-2 cart-clear"
+                            className='btn btn-danger m-2 cart-clear'
                             onClick={() => emptyCart()}
                         >Limpiar Carrito</button>
                         <Link to='/login' className='btn btn-primary cart-btn'>

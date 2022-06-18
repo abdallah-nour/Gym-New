@@ -1,4 +1,3 @@
-import React from 'react';
 import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
 import data from './data';
@@ -9,9 +8,9 @@ const Products = () => {
     return (
         <>
             <Navbar />
-            <section className="container mt-5 mb-5 pt-5">
-                <h2 className="display-5 text-white text-center">Products</h2>
-                <div className="row row-cols-1 row-cols-md-3 g-4 text-center text-white">
+            <section className='container mt-5 mb-5 pt-5'>
+                <h2 className='display-5 text-white text-center'>Products</h2>
+                <div className='row row-cols-1 row-cols-md-3 g-4 text-center text-white'>
                     {data.productData.map((item, index) => {
                         return (
                             <Itemcard

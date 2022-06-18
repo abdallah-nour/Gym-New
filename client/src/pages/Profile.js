@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import React, { Fragment, useEffect } from 'react';
+import { Fragment, useEffect } from 'react';
 import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
 import { getCurrentProfile } from '../actions/profile';
@@ -15,10 +15,10 @@ const Profile = ({ getCurrentProfile, auth: { user }, profile: { profile } }) =>
   return (
     <Fragment>
       <Navbar />
-      <div className="container-fluid text-center mt-5 pt-5 text-white dashboard">
-        <div className="container">
+      <div className='container-fluid text-center mt-5 pt-5 text-white dashboard'>
+        <div className='container'>
           <h2 className='user'>Welcome {user && user.name}</h2>
-          <img src={userp} alt="" className="img-fluid" style={{ width: '40%' }} />
+          <img src={userp} alt='' className='img-fluid' style={{ width: '40%' }} />
           {profile !== null ? (
             <Fragment>
               <h3>Personal Information:</h3>

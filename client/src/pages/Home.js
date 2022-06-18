@@ -1,16 +1,14 @@
 import PropTypes from 'prop-types'
-import { FaFacebookSquare, FaInstagram } from "react-icons/fa"
 import { connect } from 'react-redux'
-import { Redirect } from 'react-router-dom'
-import Footer from "../components/Footer"
-import Navbar from "../components/Navbar"
-import home from "../images/home.png"
-import About from "./About"
-import Contact from "./Contact"
+import { Link, Redirect } from 'react-router-dom'
+import Button from '../components/Button'
+import Footer from '../components/Footer'
+import Navbar from '../components/Navbar'
+import home from '../images/home.png'
 import Imc from './Imc'
-import "./main.css"
-import Newsletter from "./Newsletter"
-import Services from "./Services"
+import './main.css'
+import Newsletter from './Newsletter'
+import Plans from './Plans'
 
 
 const Home = ({ isAutheticated }) => {
@@ -18,29 +16,29 @@ const Home = ({ isAutheticated }) => {
         return <Redirect to='/dashboard' />
     }
     return (
-        <div>
+        <>
             <Navbar />
-            <section className="container-fluid text-white home py-5" id="home">
-                <div className="row">
-                    <div className="col-sm-6 text-center justify-content-center align-self-center p-5">
-                        <h1 className="home-title m-5">BIENVENIDO A GYMNEW, VIVE LA MEJOR EXPERIENCIA DE ENTRENAMIENTO Y DESCUBRE TU VERDADERO POTENCIAL</h1>
-                        <div className="icons">
-                            <a href="https://www.facebook.com/Gymnew-114847847775741" rel="noreferrer" target="_blank" className="icon"><FaFacebookSquare /></a>
-                            <a href="https://www.instagram.com/gymnew2000/" rel="noreferrer" target="_blank" className="icon"><FaInstagram /></a>
+            <section className='home'>
+                <div className='container'>
+                    <div className='row align-items-center min-vh-100'>
+                        <div className='col-md-6'>
+                            <img src={home} className='w-100 mt-5 pt-5' alt='Home GymNew' />
                         </div>
-                    </div>
-                    <div className="col-sm-6">
-                        <img src={home} className="img-fluid w-100 d-none d-sm-block home-img pt-5" alt="" />
+                        <div className='col-md-6 text-center text-md-left mb-4'>
+                            <span className='home__subtitle'>Regresa al gimnasio</span>
+                            <h3 className='home__title pt-2'>Empieza con Gym New</h3>
+                            <Link to='/login'>
+                                <Button title='Empezar Ahora' />
+                            </Link>
+                        </div>
                     </div>
                 </div>
             </section>
-            <About />
-            <Services />
             <Imc />
-            <Contact />
+            <Plans />
             <Newsletter />
             <Footer />
-        </div>
+        </>
     )
 };
 
