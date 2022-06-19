@@ -1,6 +1,6 @@
 import axios from 'axios';
-import React, { useState } from 'react';
-import toast, { Toaster } from "react-hot-toast";
+import { useState } from 'react';
+import toast, { Toaster } from 'react-hot-toast';
 import { connect } from 'react-redux';
 import { Link, withRouter } from 'react-router-dom';
 import { createProfile } from '../../actions/profile';
@@ -51,14 +51,14 @@ const CreateProfile = () => {
       const body = JSON.stringify(newUser);
       const res = await axios.post('/api/profile', body, config);
       console.log(res.data);
-      toast.success('Saved Measurements!',
+      toast.success('Datos guardados',
         {
           position: 'top-center',
           duration: 4000,
           style: {
             borderRadius: '20px',
-            background: '#427AA1',
-            border: '1px solid #427AA1',
+            background: '#f17f5c',
+            border: '1px solid #f17f5c',
             padding: '1rem',
             color: '#fff',
           },
@@ -70,99 +70,103 @@ const CreateProfile = () => {
   }
 
   return (
-    <section className="container-fluid register py-4">
-      <Link to="/" className="fs-5 ps-3 text-white register-logo">
-        Gym New
-      </Link>
-      <div className="container rounded shadow p-5 register-form">
-        <h2 className="fs-3 text-center">User data</h2>
-        <form className="row g-5 register-inputs" onSubmit={e => onSubmit(e)}>
-          <div className="col-md-6">
-            <label className="form-label fs-5">Weight</label>
+    <section className='container-fluid profile py-4'>
+      <div className='container shadow p-5 profile__form'>
+        <div className='text-center'>
+          <Link to='/' className='profile__logo'>
+            Gym New
+          </Link>
+        </div>
+        <h2 className='fs-3 text-center my-4'>Datos del usuario</h2>
+        <form className='row g-5' onSubmit={e => onSubmit(e)}>
+          <div className='col-md-6'>
+            <label className='form-label fs-5'>Peso</label>
             <input
-              type="text"
-              className="form-control"
+              type='text'
+              className='form-control'
               name='weight'
               value={weight}
               onChange={e => onChange(e)}
               required
             />
           </div>
-          <div className="col-md-6">
-            <label className="form-label fs-5">Height</label>
+          <div className='col-md-6'>
+            <label className='form-label fs-5'>Altura</label>
             <input
-              type="text"
-              className="form-control"
-              name="height"
+              type='text'
+              className='form-control'
+              name='height'
               value={height}
               onChange={e => onChange(e)}
               required />
           </div>
-          <div className="col-md-6">
-            <label className="form-label fs-5">Age</label>
+          <div className='col-md-6'>
+            <label className='form-label fs-5'>Edad</label>
             <input
-              type="text"
-              className="form-control"
-              name="age"
+              type='text'
+              className='form-control'
+              name='age'
               value={age}
               onChange={e => onChange(e)}
               required />
           </div>
-          <div className="col-md-6">
-            <label className="form-label fs-5">Waist diameter</label>
+          <div className='col-md-6'>
+            <label className='form-label fs-5'>Diámetro de la cintura</label>
             <input
-              type="text"
-              className="form-control"
-              name="waistdiameter"
+              type='text'
+              className='form-control'
+              name='waistdiameter'
               value={waistdiameter}
               onChange={e => onChange(e)}
               required />
           </div>
-          <div className="col-md-6">
-            <label className="form-label fs-5">Shoulder diameter</label>
+          <div className='col-md-6'>
+            <label className='form-label fs-5'>Diámetro del hombro</label>
             <input
-              type="text"
-              className="form-control"
-              name="shoulderdiameter"
+              type='text'
+              className='form-control'
+              name='shoulderdiameter'
               value={shoulderdiameter}
               onChange={e => onChange(e)}
               minlenght='6'
               required
             />
           </div>
-          <div className="col-md-6">
-            <label className="form-label fs-5">Chest diameter</label>
+          <div className='col-md-6'>
+            <label className='form-label fs-5'>Diámetro del pecho</label>
             <input
-              type="text"
-              className="form-control"
-              name="chestdiameter"
+              type='text'
+              className='form-control'
+              name='chestdiameter'
               minlenght='6'
               value={chestdiameter}
               onChange={e => onChange(e)}
               required
             />
           </div>
-          <div className="col-md-6">
-            <label className="form-label fs-5">Legs diameter</label>
+          <div className='col-md-6'>
+            <label className='form-label fs-5'>Diámetro de las pierna</label>
             <input
-              type="text"
-              className="form-control"
-              name="legsdiameter"
+              type='text'
+              className='form-control'
+              name='legsdiameter'
               minlenght='6'
               value={legsdiameter}
               onChange={e => onChange(e)}
               required
             />
           </div>
-          <div className="mb-3">
-            <label className="form-label fs-5 contact-label">Why do you want to enter the gym?</label>
-            <textarea className="form-control" required name="message" rows="3"></textarea>
+          <div className='mb-3'>
+            <label className='form-label fs-5 contact-label'>¿Por qué quieres entrar al gimnasio?</label>
+            <textarea className='form-control' required name='message' rows='3'></textarea>
           </div>
-          <div className="d-grid gap-2 col-4 mx-auto">
-            <button type="submit" className="btn btn-primary btn-lg fs-6 register-btn">Create or Update Data</button>
+          <div className='text-center'>
+            <button type='submit' className='btn btn-primary'>Crear o actualizar datos</button>
             <Toaster />
-            <Link to="/dashboard" className="btn btn-primary btn-lg fs-6 register-btn">
-              Go to Dashboard
+          </div>
+          <div className='text-center'>
+            <Link to='/dashboard' className='btn btn-primary'>
+              Ir al panel de control
             </Link>
           </div>
         </form>

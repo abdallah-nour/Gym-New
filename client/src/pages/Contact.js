@@ -20,14 +20,14 @@ const Contact = () => {
                 console.log(error.text);
             });
         e.target.reset();
-        toast.success('Message Sent!',
+        toast.success('Mensaje Enviado',
             {
                 position: 'top-center',
                 duration: 2000,
                 style: {
                     borderRadius: '20px',
-                    background: '#427AA1',
-                    border: '1px solid #427AA1',
+                    background: '#f17f5c',
+                    border: '1px solid #f17f5c',
                     padding: '1rem',
                     color: '#fff',
                 },

@@ -1,68 +1,68 @@
-import product1 from '../images/product1.png';
-import product2 from '../images/product2.png';
-import product3 from '../images/product3.png';
-import product4 from '../images/product4.png';
-import product5 from '../images/product5.png';
-import product6 from '../images/product6.png';
-import product7 from '../images/product7.png';
-import product8 from '../images/product8.png';
-import product9 from '../images/product9.png';
+import bascula from '../images/bascula.png';
+import bolso from '../images/bolso.png';
+import botella from '../images/botella.png';
+import creatina from '../images/creatina.png';
+import mancuernas from '../images/mancuernas.png';
+import proteina from '../images/proteina.png';
+import rueda from '../images/rueda.png';
+import straps from '../images/straps.png';
+import toalla from '../images/toalla.jpg';
 
 const data = {
     productData: [
         {
             id: 1,
-            img: product1,
-            title: 'Strap',
+            img: straps,
+            title: 'Straps',
             price: 15,
         },
         {
             id: 2,
-            img: product2,
-            title: 'Toallas',
+            img: toalla,
+            title: 'Toalla',
             price: 25,
         },
         {
             id: 3,
-            img: product3,
+            img: creatina,
             title: 'Creatina',
             price: 40,
         },
         {
             id: 4,
-            img: product4,
+            img: bascula,
             title: 'Bascula',
             price: 32,
         },
         {
             id: 5,
-            img: product5,
+            img: bolso,
             title: 'Bolso',
             price: 37,
         },
         {
             id: 6,
-            img: product6,
+            img: botella,
             title: 'Botella de agua',
             price: 8,
         },
         {
             id: 7,
-            img: product7,
-            title: 'Mancuerna',
-            price: 20,
+            img: mancuernas,
+            title: 'Mancuernas',
+            price: 40,
         },
         {
             id: 8,
-            img: product8,
+            img: proteina,
             title: 'Proteina',
             price: 35,
         },
         {
             id: 9,
-            img: product9,
+            img: rueda,
             title: 'Rueda abdominal',
-            price: 14,
+            price: 16,
         },
     ]
 }

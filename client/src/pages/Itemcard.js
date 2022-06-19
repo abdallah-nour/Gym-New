@@ -1,5 +1,5 @@
-import { FaShoppingCart } from 'react-icons/fa';
 import { useCart } from 'react-use-cart';
+import './main.css';
 
 const Itemcard = (props) => {
 
@@ -7,13 +7,15 @@ const Itemcard = (props) => {
 
     return (
         <div className='col'>
-            <div className='card h-100'>
-                <img src={props.img} className='card-img-top' alt='...' />
+            <div className='card my-3 border-0'>
+                <div className='overflow-hidden products__bg'>
+                    <img src={props.img} className='card-img-top products__card-image' alt={props.title} />
+                </div>
                 <div className='card-body'>
-                    <h5 className='text-white'>{props.title}</h5>
+                    <h5 className='card-title products__title'>{props.title}</h5>
                     <p className='card-text'>Precio: ${props.price}</p>
-                    <button className='btn btn-danger products-btn' onClick={() => addItem(props.item)}>
-                        <FaShoppingCart className='ps-2 fs-4' /> Agregar al carrito
+                    <button className='btn btn-primary' onClick={() => addItem(props.item)}>
+                        Agregar al carrito
                     </button>
                 </div>
             </div>

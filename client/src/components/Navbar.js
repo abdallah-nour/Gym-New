@@ -1,10 +1,10 @@
 import PropTypes from 'prop-types';
 import { Fragment } from 'react';
-import { FaShoppingCart } from 'react-icons/fa';
+import { BsCart2 } from 'react-icons/bs';
 import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
 import { logout } from '../actions/auth';
-import userp from '../images/user.png';
+import userp from '../images/user.jpg';
 import Button from './Button';
 import './main.css';
 
@@ -43,7 +43,7 @@ const Navbar = ({ auth: { isAuthenticated, loading, user }, logout }) => {
                         </li>
                         <li className='nav-item'>
                             <Link to='/dashboard' className='nav-link active'>
-                                Dashboard
+                                Panel de control
                             </Link>
                         </li>
                         <li className='nav-item'>
@@ -53,12 +53,12 @@ const Navbar = ({ auth: { isAuthenticated, loading, user }, logout }) => {
                         </li>
                         <li className='nav-item'>
                             <Link to='/cart' className='nav-link active'>
-                                <FaShoppingCart style={{ fontSize: '1.5rem' }} className='me-2' />
+                                <BsCart2 style={{ fontSize: '1.5rem' }} className='me-2' />
                             </Link>
                         </li>
                         <li className='nav-item'>
                             <Link to='/profile' className='nav-link active'>
-                                <img src={userp} alt='user' style={{ width: '32px' }} /> {user && user.name}
+                                <img src={userp} className='rounded-circle' alt='user' style={{ width: '32px' }} /> {user && user.name}
                             </Link>
                         </li>
                         <li className='nav-item'>
@@ -110,7 +110,7 @@ const Navbar = ({ auth: { isAuthenticated, loading, user }, logout }) => {
                         </li>
                         <li className='nav-item'>
                             <Link to='/cart' className='nav-link active'>
-                                <FaShoppingCart style={{ fontSize: '1.5rem' }} className='me-2' />
+                                <BsCart2 style={{ fontSize: '1.5rem' }} className='me-2' />
                             </Link>
                         </li>
                         <li className='nav-item'>

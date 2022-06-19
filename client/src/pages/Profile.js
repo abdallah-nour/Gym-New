@@ -4,7 +4,8 @@ import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
 import { getCurrentProfile } from '../actions/profile';
 import Navbar from '../components/Navbar';
-import userp from '../images/user.png';
+import userp from '../images/user.jpg';
+import './main.css';
 
 const Profile = ({ getCurrentProfile, auth: { user }, profile: { profile } }) => {
 
@@ -15,33 +16,35 @@ const Profile = ({ getCurrentProfile, auth: { user }, profile: { profile } }) =>
   return (
     <Fragment>
       <Navbar />
-      <div className='container-fluid text-center mt-5 pt-5 text-white dashboard'>
+      <div className='container-fluid text-center my-5 py-5'>
         <div className='container'>
-          <h2 className='user'>Welcome {user && user.name}</h2>
-          <img src={userp} alt='' className='img-fluid' style={{ width: '40%' }} />
+          <h2 className='user profile__title'>Bienvenido {user && user.name}</h2>
+          <img src={userp} alt='Profile' className='img-fluid rounded-circle' style={{ width: '40%' }} />
           {profile !== null ? (
             <Fragment>
-              <h3>Personal Information:</h3>
-              <span>Name: {user && user.name}</span><br />
-              <span>LastName: {user && user.lastname}</span><br />
-              <span>Email: {user && user.email}</span><br />
-              <span>Phone: {user && user.phone}</span><br />
-              <span>Height: {user && profile.height} cm</span><br />
-              <span>Weight: {user && profile.weight} kg</span><br />
-              <span>Age: {user && profile.age} years</span>
-              <div className='mt-1 mb-2 p-1 pb-2'>
-                <Link to='/create-profile' className='btn btn-primary my-1 profile-btn'>
-                  Personal Data Form
-                </Link>
-                {/* <br/><button className='btn btn-danger delete-btn mt-2'>Delete Account <FaTrashAlt className='ps-2 fs-4' /></button> */}
+              <div className='my-4 text-white'>
+                <h3>Información personal:</h3>
+                <span>Nombre: {user && user.name}</span><br />
+                <span>Apellido: {user && user.lastname}</span><br />
+                <span>Correo: {user && user.email}</span><br />
+                <span>Teléfono: {user && user.phone}</span><br />
+                <span>Altura: {user && profile.height} cm</span><br />
+                <span>Peso: {user && profile.weight} kg</span><br />
+                <span>Edad: {user && profile.age} años</span>
+                <div className='mt-1 mb-2 p-1 pb-2'>
+                  <Link to='/create-profile' className='btn btn-primary my-1'>
+                    Datos personales
+                  </Link>
+                  {/* <br/><button className='btn btn-danger delete-btn mt-2'>Delete Account <FaTrashAlt className='ps-2 fs-4' /></button> */}
+                </div>
               </div>
             </Fragment>
           ) : (
             <Fragment>
               <div className='mt-1 mb-2 p-1 pb-2'>
-                <p>You have not yet setup a profile, please add some info</p>
-                <Link to='/create-profile' className='btn btn-primary my-1 profile-btn'>
-                  Create Profile
+                <p>Aún no ha configurado un perfil, agregue información.</p>
+                <Link to='/create-profile' className='btn btn-primary my-1'>
+                  Crear Perfil
                 </Link>
               </div>
             </Fragment>

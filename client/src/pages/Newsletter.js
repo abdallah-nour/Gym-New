@@ -1,3 +1,4 @@
+import Button from '../components/Button';
 import './main.css';
 
 const Newsletter = () => {
@@ -10,8 +11,8 @@ const Newsletter = () => {
                         <div className='d-flex align-items-center justify-content-center'>
                             <input type='email' required className='form-control mt-3 newsletter__input' placeholder='Ingresa tu correo electrónico' />
                         </div>
-                        <div className='d-flex align-items-center justify-content-center'>
-                            <button className='btn btn-primary mt-4'>Suscríbete</button>
+                        <div className='d-flex align-items-center justify-content-center mt-4'>
+                            <Button title='Suscribete' />
                         </div>
                     </form>
                 </div>

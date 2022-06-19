@@ -9,7 +9,7 @@ import biceps from '../images/biceps.jpg';
 import chest from '../images/chest.png';
 import legs from '../images/legs.png';
 import shoulder from '../images/shoulder.jpg';
-import userp from '../images/user.png';
+import userp from '../images/user.jpg';
 import './main.css';
 
 const Dashboard = ({ getCurrentProfile, auth: { user }, profile: { profile } }) => {
@@ -21,11 +21,11 @@ const Dashboard = ({ getCurrentProfile, auth: { user }, profile: { profile } }) 
     return (
         <>
             <Navbar />
-            <section className='container mt-5 mb-5 pt-5'>
-                <h2 className='text-white user'><img src={userp} alt='user' style={{ width: '5%' }} />Welcome! {user && user.name}</h2>
+            <section className='container my-5 py-5'>
+                <h2 className='dashboard__title user d-flex align-items-center'><img src={userp} className='rounded-circle me-2' alt='user' style={{ width: '5%' }} />Bienvenido! {user && user.name}</h2>
                 <div className='row'>
                     <div className='col'>
-                        <h3 className='text-white'>These are your routines: </h3>
+                        <h3 className='text-white'>Estas son tus rutinas: </h3>
                         <div>
                             <ul className='nav nav-pills mb-3' id='pills-tab' role='tablist'>
                                 <li className='nav-item' role='presentation'>
@@ -64,7 +64,7 @@ const Dashboard = ({ getCurrentProfile, auth: { user }, profile: { profile } }) 
                         </div>
                     </div>
                     <div className='col'>
-                        <h3 className='text-white'>Exercise guide: </h3>
+                        <h3 className='text-white'>Guía de ejercicios: </h3>
                         <div>
                             <ul className='nav nav-pills mb-3' id='pills-tab' role='tablist'>
                                 <li className='nav-item' role='presentation'>
@@ -104,37 +104,37 @@ const Dashboard = ({ getCurrentProfile, auth: { user }, profile: { profile } }) 
                     </div>
                 </div>
                 <div className='mt-4'>
-                    <h3 className='text-white text-center'>Your measurements:</h3>
+                    <h3 className='text-white text-center'>Tus medidas:</h3>
                     <div className='d-flex justify-content-center align-items-center'>
                         <table className='table table-hover text-center'>
-                            <thead className='table-primary'>
+                            <thead className='dashboard__table'>
                                 <tr>
                                     <th scope='col'>#</th>
-                                    <th scope='col'>Muscle</th>
-                                    <th scope='col'>Measure(cm)</th>
+                                    <th scope='col'>Musculo</th>
+                                    <th scope='col'>Medida(cm)</th>
                                 </tr>
                             </thead>
                             <tbody className='table-light'>
                                 <tr>
                                     <th scope='row'>1</th>
-                                    <td>Waist</td>
+                                    <td>Cintura</td>
                                     <td>{user && profile.waistdiameter}</td>
                                 </tr>
                                 <tr>
                                     <th scope='row'>2</th>
-                                    <td>Chest</td>
+                                    <td>Pecho</td>
                                     <td>{user && profile.chestdiameter}</td>
 
                                 </tr>
                                 <tr>
                                     <th scope='row'>3</th>
-                                    <td>Shoulder</td>
+                                    <td>Hombro</td>
                                     <td>{user && profile.shoulderdiameter}</td>
 
                                 </tr>
                                 <tr>
                                     <th scope='row'>4</th>
-                                    <td>Legs</td>
+                                    <td>Pierna</td>
                                     <td>{user && profile.legsdiameter}</td>
                                 </tr>
                             </tbody>
