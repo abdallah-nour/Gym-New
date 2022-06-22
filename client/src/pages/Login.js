@@ -37,7 +37,7 @@ const Login = ({ login, isAuthenticated }) => {
                                 Gym New
                             </Link>
                         </div>
-                        <h2 className='fs-4 login__subtitle text-center py-4'>Iniciar Sesión</h2>
+                        <h2 className='fs-4 title text-center py-4'>Iniciar Sesión</h2>
                         <form onSubmit={e => onSubmit(e)}>
                             <div className='mb-3 py-4'>
                                 <label className='form-label fs-5 contact-label'>Correo electrónico</label>

@@ -44,20 +44,9 @@ ul {
     color: #fff;
 }
 
-.about__title,
+.title,
 .about__icon,
-.login__subtitle,
-.register__subtitle,
-.plans__subtitle,
-.plans__icon,
-.imc__title,
-.newsletter__title,
-.contact__text,
-.services__title,
-.products__title,
-.cart__title,
-.dashboard__title,
-.profile__title {
+.plans__icon {
     color: #ff5421;
 }
 
@@ -124,5 +113,30 @@ ul {
 }
 
 .user {
+    text-transform: uppercase;
+}
+
+.dashboard__video {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+.dashboard__video iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.profile__table {
+    width: 40%;
+}
+
+.dashboard__exercises {
+    color: #ff5421;
+    font-weight: 500;
     text-transform: uppercase;
 }

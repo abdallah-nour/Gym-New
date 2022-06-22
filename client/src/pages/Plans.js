@@ -4,7 +4,7 @@ const Plans = () => {
     return (
         <section className='container my-5 py-5'>
             <div className='text-center mb-3'>
-                <span className='plans__subtitle'>Escoge un plan</span>
+                <span className='title'>Escoge un plan</span>
                 <h3 className='text-white'>Encuentra un plan perfecto</h3>
             </div>
             <div className='row row-cols-1 row-cols-md-3 mb-3 text-center'>

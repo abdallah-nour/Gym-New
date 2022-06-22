@@ -38,7 +38,7 @@ const Contact = () => {
         <>
             <Navbar />
             <section className='container-fluid contact my-5'>
-                <h2 className='display-5 text-center contact__text py-4'>Contacto</h2>
+                <h2 className='display-5 text-center title py-4'>Contacto</h2>
                 <div className='container'>
                     <div className='row text-white'>
                         <div className='col d-flex justify-content-center'>

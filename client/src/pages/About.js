@@ -12,7 +12,7 @@ const About = () => {
                 <div className='container'>
                     <div className='row align-items-center flex-wrap-reverse'>
                         <div className='col-md-6'>
-                            <h3 className='display-5 about__title'>Acerca de Nosotros</h3>
+                            <h3 className='display-5 title'>Acerca de Nosotros</h3>
                             <p className='about__description pt-1'>Somos una empresa que busca mejorar la calidad de vida de nuestros clientes, para ello contamos con excelentes profesores y clases dinámicas para ayudarte a conseguir tu mejor condición física. Llena tu vida de energía y motivación. Supera tus límites con programas de entrenamiento diseñados por profesionales, de acuerdo a tus objetivos. Ofrecemos:</p>
                             <ul className='text-white'>
                                 <li className='pt-1'> <FaCheckSquare className='me-1 about__icon' />Cómo apoyar su sistema inmunológico.</li>

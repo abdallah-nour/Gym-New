@@ -31,7 +31,7 @@ const Imc = () => {
         <section className='container py-5 imc'>
             <div className='containaer-fluid py-5 bg-white shadow'>
                 <div>
-                    <h2 className='text-center imc__title fs-4'>Calculadora IMC</h2>
+                    <h2 className='text-center title fs-4'>Calculadora IMC</h2>
                     <form>
                         <div className='d-flex align-items-center justify-content-center'>
                             <input type='number' id='Height' value={height} onChange={(e) => setHeight(e.target.value)} required className='form-control mt-3 imc__input' placeholder='Altura en cm' />

@@ -9,7 +9,7 @@ const Products = () => {
         <>
             <Navbar />
             <section className='container my-5 py-5'>
-                <h2 className='display-5 products__title text-center'>Productos</h2>
+                <h2 className='display-5 title text-center'>Productos</h2>
                 <div className='row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 text-center'>
                     {data.productData.map((item, index) => {
                         return (

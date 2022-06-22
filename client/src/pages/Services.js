@@ -11,7 +11,7 @@ const Services = () => {
         <>
             <Navbar />
             <section className='container services my-5'>
-                <h2 className='display-5 services__title text-center py-4'>Servicios</h2>
+                <h2 className='display-5 title text-center py-4'>Servicios</h2>
                 <div className='row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3'>
                     <div className='col'>
                         <div className='card border-0'>
@@ -19,7 +19,7 @@ const Services = () => {
                                 <img src={services1} className='card-img-top' alt='Card Services' />
                             </div>
                             <div className='card-body'>
-                                <h5 className='card-title services__title'>Entrenamiento inteligente</h5>
+                                <h5 className='card-title title'>Entrenamiento inteligente</h5>
                                 <p className='card-text'>Asesoria personalizada en tu rutina.</p>
                                 <Button title='Más información' />
                             </div>
@@ -31,7 +31,7 @@ const Services = () => {
                                 <img src={services2} className='card-img-top' alt='Card Services' />
                             </div>
                             <div className='card-body'>
-                                <h5 className='card-title services__title'>Zona de mancuernas</h5>
+                                <h5 className='card-title title'>Zona de mancuernas</h5>
                                 <p className='card-text'>Espacio con gran cantidad de mancuernas.</p>
                                 <Button title='Más información' />
                             </div>
@@ -43,7 +43,7 @@ const Services = () => {
                                 <img src={services3} className='card-img-top' alt='Card Services' />
                             </div>
                             <div className='card-body'>
-                                <h5 className='card-title services__title'>Zona de cardio</h5>
+                                <h5 className='card-title title'>Zona de cardio</h5>
                                 <p className='card-text'>Espacio con diferentes máquinas para cardio.</p>
                                 <Button title='Más información' />
                             </div>

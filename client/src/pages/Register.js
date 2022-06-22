@@ -45,7 +45,7 @@ const Register = ({ setAlert, register, isAuthenticated }) => {
                         Gym New
                     </Link>
                 </div>
-                <h2 className='fs-4 register__subtitle my-4 text-center'>Registrarse</h2>
+                <h2 className='fs-4 title my-4 text-center'>Registrarse</h2>
                 <form className='row g-5' onSubmit={e => onSubmit(e)}>
                     <div className='col-md-6'>
                         <label className='form-label fs-5'>Nombre</label>

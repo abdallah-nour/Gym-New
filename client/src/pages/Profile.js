@@ -16,9 +16,9 @@ const Profile = ({ getCurrentProfile, auth: { user }, profile: { profile } }) =>
   return (
     <Fragment>
       <Navbar />
-      <div className='container-fluid text-center my-5 py-5'>
-        <div className='container'>
-          <h2 className='user profile__title'>Bienvenido {user && user.name}</h2>
+      <div className='container-fluid my-5 py-5'>
+        <div className='text-center'>
+          <h2 className='user title'>Bienvenido {user && user.name}</h2>
           <img src={userp} alt='Profile' className='img-fluid rounded-circle' style={{ width: '40%' }} />
           {profile !== null ? (
             <Fragment>
@@ -50,8 +50,46 @@ const Profile = ({ getCurrentProfile, auth: { user }, profile: { profile } }) =>
             </Fragment>
           )}
         </div>
+        <div className='mt-4'>
+          <h3 className='text-white text-center'>Tus medidas:</h3>
+          <div className='d-flex justify-content-center align-items-center'>
+            <table className='table table-hover profile__table text-center'>
+              <thead className='dashboard__table'>
+                <tr>
+                  <th scope='col'>#</th>
+                  <th scope='col'>Musculo</th>
+                  <th scope='col'>Medida(cm)</th>
+                </tr>
+              </thead>
+              <tbody className='table-light'>
+                <tr>
+                  <th scope='row'>1</th>
+                  <td>Cintura</td>
+                  <td>{user && profile.waistdiameter}</td>
+                </tr>
+                <tr>
+                  <th scope='row'>2</th>
+                  <td>Pecho</td>
+                  <td>{user && profile.chestdiameter}</td>
+
+                </tr>
+                <tr>
+                  <th scope='row'>3</th>
+                  <td>Hombro</td>
+                  <td>{user && profile.shoulderdiameter}</td>
+
+                </tr>
+                <tr>
+                  <th scope='row'>4</th>
+                  <td>Pierna</td>
+                  <td>{user && profile.legsdiameter}</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
       </div>
-    </Fragment>
+    </Fragment >
   )
 };
 

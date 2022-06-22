@@ -20,7 +20,7 @@ const Cart = () => {
         <>
             <Navbar />
             <section className='container my-5 py-5'>
-                <h2 className='display-5 cart__title text-center'>Carrito de Compras</h2>
+                <h2 className='display-5 title text-center'>Carrito de Compras</h2>
                 <h3 className='text-white'>Tu carrito esta vacio</h3>
                 <Link to='/products' className='btn btn-primary'>
                     Ir a productos
@@ -33,7 +33,7 @@ const Cart = () => {
         <>
             <Navbar />
             <section className='container my-5 py-5'>
-                <h2 className='display-5 cart__title text-center'>Carrito de Compras</h2>
+                <h2 className='display-5 title text-center'>Carrito de Compras</h2>
                 <div className='row justify-content-center'>
                     <div className='col-12'>
                         <h5 className='text-white pb-2'>Carrito ({totalUniqueItems}) Articulos Totales: ({totalItems})</h5>

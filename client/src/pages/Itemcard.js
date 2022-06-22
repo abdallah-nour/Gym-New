@@ -12,7 +12,7 @@ const Itemcard = (props) => {
                     <img src={props.img} className='card-img-top products__card-image' alt={props.title} />
                 </div>
                 <div className='card-body'>
-                    <h5 className='card-title products__title'>{props.title}</h5>
+                    <h5 className='card-title title'>{props.title}</h5>
                     <p className='card-text'>Precio: ${props.price}</p>
                     <button className='btn btn-primary' onClick={() => addItem(props.item)}>
                         Agregar al carrito
