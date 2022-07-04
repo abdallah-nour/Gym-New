@@ -20,18 +20,12 @@ app.use('/api/users', require('./routes/api/users'));
 app.use('/api/auth', require('./routes/api/auth'));
 app.use('/api/profile', require('./routes/api/profile'));
 
+app.use(express.static(path.join(__dirname, '/client/build')));
+
+app.get('/', function (req, res) {
+    res.sendFile(path.join(__dirname, 'client', 'build', 'index.html'));
+});
+
 const PORT = process.env.PORT || 5000;
-
-if (process.env.development === 'production') {
-    app.use(express.static(path.join(__dirname, '/client/build')));
-
-    app.get('*', function (req, res) {
-        res.sendFile(path.join(__dirname, 'client', 'build', 'index.html'));
-    });
-} else {
-    app.get('/', (req, res) => {
-        res.send("API running");
-    });
-}
 
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
