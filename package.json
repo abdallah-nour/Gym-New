@@ -4,7 +4,7 @@
   "description": "Gym New Project",
   "main": "index.js",
   "scripts": {
-    "start": "npm node server",
+    "start": "node server.js",
     "heroku-postbuild": "cd client && npm install && npm run build",
     "server": "nodemon server",
     "client": "npm start --prefix client",
