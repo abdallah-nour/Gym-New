@@ -1,16 +1,12 @@
+require('dotenv').config({ path: './config.env' });
 const express = require('express');
-
 const connectDB = require('./config/db');
-
 const path = require('path');
 
-const app = express();
-
 //Connect Database
-
 connectDB();
 
-// Init middleware development
+const app = express();
 
 app.use(express.json({ extended: false }));
 
@@ -26,6 +22,6 @@ app.get('*', function (req, res) {
     res.sendFile(path.join(__dirname, 'client', 'build', 'index.html'));
 });
 
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT;
 
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
