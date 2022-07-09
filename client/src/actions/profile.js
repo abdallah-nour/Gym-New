@@ -1,4 +1,4 @@
-import axios from 'axios';
+import { axiosInstance } from '../config';
 import { setAlert } from './alert';
 import {
     GET_PROFILE,
@@ -10,7 +10,7 @@ import {
 
 export const getCurrentProfile = () => async dispatch => {
     try {
-        const res = await axios.get('/api/profile/me');
+        const res = await axiosInstance.get('/api/profile/me');
 
         dispatch({
             type: GET_PROFILE,
@@ -34,7 +34,7 @@ export const createProfile = (formData, history, edit = false) => async dispatch
             }
         }
 
-        const res = await axios.post('/api/profile', formData, config);
+        const res = await axiosInstance.post('/api/profile', formData, config);
 
         dispatch({
             type: GET_PROFILE,

@@ -1,9 +1,9 @@
-import axios from 'axios';
 import { useState } from 'react';
 import toast, { Toaster } from 'react-hot-toast';
 import { connect } from 'react-redux';
 import { Link, withRouter } from 'react-router-dom';
 import { createProfile } from '../../actions/profile';
+import { axiosInstance } from '../../config';
 
 const CreateProfile = () => {
 
@@ -49,7 +49,7 @@ const CreateProfile = () => {
         }
       }
       const body = JSON.stringify(newUser);
-      const res = await axios.post('/api/profile', body, config);
+      const res = await axiosInstance.post('/api/profile', body, config);
       console.log(res.data);
       toast.success('Datos guardados',
         {
