@@ -16,17 +16,18 @@ app.use('/api/users', require('./routes/api/users'));
 app.use('/api/auth', require('./routes/api/auth'));
 app.use('/api/profile', require('./routes/api/profile'));
 
-if (process.env.NODE_ENV === 'production') {
+// Deployment
+// if (process.env.NODE_ENV === 'production') {
     app.use(express.static(path.join(__dirname, '/client/build')));
 
     app.get('*', (req, res) => {
         res.sendFile(path.join(__dirname, 'client', 'build', 'index.html'));
     });
-} else {
-    app.get('/', (req, res) => {
-        res.send('API running');
-    });
-}
+// } else {
+//     app.get('/', (req, res) => {
+//         res.send('API running');
+//     });
+// }
 
 const PORT = process.env.PORT;
 
