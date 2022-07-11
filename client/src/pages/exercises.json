@@ -4,7 +4,7 @@
         "equipment": "body weight",
         "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0001.gif",
         "id": "0001",
-        "name": "3/4 sit-up",
+        "name": "3/4 abdominales",
         "target": "abs"
     },
     {
@@ -12,7 +12,7 @@
         "equipment": "body weight",
         "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/1512.gif",
         "id": "1512",
-        "name": "all fours squad stretch",
+        "name": "estiramiento en cuatro piernas",
         "target": "quads"
     },
     {
@@ -20,7 +20,7 @@
         "equipment": "body weight",
         "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0006.gif",
         "id": "0006",
-        "name": "alternate heel touchers",
+        "name": "toques alternos del talón",
         "target": "abs"
     },
     {
@@ -28,7 +28,7 @@
         "equipment": "cable",
         "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0007.gif",
         "id": "0007",
-        "name": "alternate lateral pulldown",
+        "name": "jalón lateral alterno",
         "target": "lats"
     },
     {
@@ -36,7 +36,7 @@
         "equipment": "body weight",
         "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/1368.gif",
         "id": "1368",
-        "name": "ankle circles",
+        "name": "estiramiento de tobillo",
         "target": "calves"
     },
     {
@@ -44,7 +44,7 @@
         "equipment": "body weight",
         "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/3293.gif",
         "id": "3293",
-        "name": "archer pull up",
+        "name": "arqueo hacia arriba",
         "target": "lats"
     },
     {
@@ -52,7 +52,7 @@
         "equipment": "body weight",
         "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/3294.gif",
         "id": "3294",
-        "name": "archer push up",
+        "name": "Arquero empuje hacia arriba",
         "target": "pectorals"
     },
     {
@@ -60,7 +60,7 @@
         "equipment": "body weight",
         "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/3220.gif",
         "id": "3220",
-        "name": "astride jumps (male)",
+        "name": "saltos  con los brazos estirados",
         "target": "cardiovascular system"
     },
     {
@@ -68,7 +68,7 @@
         "equipment": "body weight",
         "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/3672.gif",
         "id": "3672",
-        "name": "back and forth step",
+        "name": "paso de ida y vuelta",
         "target": "cardiovascular system"
     },
     {
@@ -76,7 +76,7 @@
         "equipment": "stability ball",
         "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/1314.gif",
         "id": "1314",
-        "name": "back extension on exercise ball",
+        "name": "estencion de espalda en pelotas de ejercicio ",
         "target": "spine"
     },
     {
@@ -84,7 +84,7 @@
         "equipment": "body weight",
         "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/3297.gif",
         "id": "3297",
-        "name": "back lever",
+        "name": "palanca trasera",
         "target": "upper back"
     },
     {
@@ -92,7 +92,7 @@
         "equipment": "body weight",
         "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/1405.gif",
         "id": "1405",
-        "name": "back pec stretch",
+        "name": "estiramiento de pectorales",
         "target": "lats"
     },
     {
@@ -100,7 +100,7 @@
         "equipment": "body weight",
         "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/1473.gif",
         "id": "1473",
-        "name": "backward jump",
+        "name": "salto hasia atras",
         "target": "quads"
     },
     {
@@ -108,7 +108,7 @@
         "equipment": "body weight",
         "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0020.gif",
         "id": "0020",
-        "name": "balance board",
+        "name": "tabla de equilibrio",
         "target": "quads"
     },
     {
@@ -116,7 +116,7 @@
         "equipment": "band",
         "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0968.gif",
         "id": "0968",
-        "name": "band alternating biceps curl",
+        "name": "Curl de bíceps alterno con bandas",
         "target": "biceps"
     },
     {
@@ -124,7 +124,7 @@
         "equipment": "band",
         "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0969.gif",
         "id": "0969",
-        "name": "band alternating v-up",
+        "name": "banda alterna v-up",
         "target": "abs"
     },
     {
@@ -132,7 +132,7 @@
         "equipment": "band",
         "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0970.gif",
         "id": "0970",
-        "name": "band assisted pull-up",
+        "name": "Pull-up asistido por banda",
         "target": "lats"
     },
     {
@@ -140,7 +140,7 @@
         "equipment": "band",
         "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0971.gif",
         "id": "0971",
-        "name": "band assisted wheel rollerout",
+        "name": "banda asistida rodando la rueda",
         "target": "abs"
     },
     {
@@ -148,7 +148,7 @@
         "equipment": "band",
         "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/1254.gif",
         "id": "1254",
-        "name": "band bench press",
+        "name": "press de banca con banda",
         "target": "pectorals"
     },
     {
@@ -156,7 +156,7 @@
         "equipment": "band",
         "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0980.gif",
         "id": "0980",
-        "name": "band bent-over hip extension",
+        "name": "banda de extensión de cadera doblada",
         "target": "glutes"
     },
     {
@@ -164,7 +164,7 @@
         "equipment": "band",
         "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0972.gif",
         "id": "0972",
-        "name": "band bicycle crunch",
+        "name": "crunch de bicicleta de banda",
         "target": "abs"
     },
     {
@@ -172,7 +172,7 @@
         "equipment": "band",
         "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0974.gif",
         "id": "0974",
-        "name": "band close-grip pulldown",
+        "name": "jalón con agarre cerrado",
         "target": "lats"
     },
     {
@@ -180,7 +180,7 @@
         "equipment": "band",
         "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0975.gif",
         "id": "0975",
-        "name": "band close-grip push-up",
+        "name": "flexiones con agarre cerrado",
         "target": "triceps"
     },
     {
@@ -188,7 +188,7 @@
         "equipment": "band",
         "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0976.gif",
         "id": "0976",
-        "name": "band concentration curl",
+        "name": "rizo de concentración de banda",
         "target": "biceps"
     },
     {
@@ -196,7 +196,7 @@
         "equipment": "band",
         "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/3117.gif",
         "id": "3117",
-        "name": "band fixed back close grip pulldown",
+        "name": "tira de agarre cerrado en la parte trasera fija",
         "target": "lats"
     },
     {
@@ -204,7 +204,7 @@
         "equipment": "band",
         "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/3116.gif",
         "id": "3116",
-        "name": "band fixed back underhand pulldown",
+        "name": "pulldown bajo la mano con espalda fija",
         "target": "lats"
     },
     {
@@ -212,7 +212,7 @@
         "equipment": "band",
         "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0977.gif",
         "id": "0977",
-        "name": "band front lateral raise",
+        "name": "elevación frontal lateral con banda",
         "target": "delts"
     },
     {
@@ -220,7 +220,7 @@
         "equipment": "band",
         "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0978.gif",
         "id": "0978",
-        "name": "band front raise",
+        "name": "elevación frontal de la banda",
         "target": "delts"
     },
     {
@@ -228,7 +228,7 @@
         "equipment": "band",
         "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/1408.gif",
         "id": "1408",
-        "name": "band hip lift",
+        "name": "levantamiento de cadera con banda",
         "target": "glutes"
     },
     {
@@ -236,7 +236,7 @@
         "equipment": "band",
         "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0979.gif",
         "id": "0979",
-        "name": "band horizontal pallof press",
+        "name": "prensa pallof horizontal de banda",
         "target": "abs"
     },
     {
@@ -244,7 +244,7 @@
         "equipment": "band",
         "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0981.gif",
         "id": "0981",
-        "name": "band jack knife sit-up",
+        "name": "abdominales con navaja de banda",
         "target": "abs"
     },
     {
@@ -252,7 +252,7 @@
         "equipment": "band",
         "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0983.gif",
         "id": "0983",
-        "name": "band kneeling one arm pulldown",
+        "name": "Banda arrodillada un brazo desplegable",
         "target": "lats"
     },
     {
@@ -260,7 +260,7 @@
         "equipment": "band",
         "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0985.gif",
         "id": "0985",
-        "name": "band kneeling twisting crunch",
+        "name": "banda arrodillada torciendo crunch",
         "target": "abs"
     },
     {
@@ -268,7 +268,7 @@
         "equipment": "band",
         "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0984.gif",
         "id": "0984",
-        "name": "band lying hip internal rotation",
+        "name": "banda acostado cadera rotacion interna",
         "target": "glutes"
     },
     {
@@ -276,7 +276,7 @@
         "equipment": "band",
         "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/1002.gif",
         "id": "1002",
-        "name": "band lying straight leg raise",
+        "name": "elevación de pierna estirada en banda",
         "target": "abs"
     },
     {
@@ -284,7 +284,7 @@
         "equipment": "band",
         "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0986.gif",
         "id": "0986",
-        "name": "band one arm overhead biceps curl",
+        "name": "Curl de bíceps con un brazo por encima de la cabeza con banda",
         "target": "biceps"
     },
     {
@@ -292,7 +292,7 @@
         "equipment": "band",
         "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0987.gif",
         "id": "0987",
-        "name": "band one arm single leg split squat",
+        "name": "sentadilla dividida con una sola pierna y un brazo con banda",
         "target": "quads"
     },
     {
@@ -300,7 +300,7 @@
         "equipment": "band",
         "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0988.gif",
         "id": "0988",
-        "name": "band one arm standing low row",
+        "name": "banda un brazo de pie fila baja",
         "target": "upper back"
     },
     {
@@ -308,7 +308,7 @@
         "equipment": "band",
         "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0989.gif",
         "id": "0989",
-        "name": "band one arm twisting chest press",
+        "name": "Prensa de pecho con torsión de un brazo con banda",
         "target": "pectorals"
     },
     {
@@ -316,7 +316,7 @@
         "equipment": "band",
         "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0990.gif",
         "id": "0990",
-        "name": "band one arm twisting seated row",
+        "name": "banda un brazo torciendo sentado fila",
         "target": "upper back"
     },
     {
@@ -324,7 +324,7 @@
         "equipment": "band",
         "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0991.gif",
         "id": "0991",
-        "name": "band pull through",
+        "name": "tirar de la banda",
         "target": "glutes"
     },
     {
@@ -332,7 +332,7 @@
         "equipment": "band",
         "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0992.gif",
         "id": "0992",
-        "name": "band push sit-up",
+        "name": "banda push sit-up",
         "target": "abs"
     },
     {
@@ -340,7 +340,7 @@
         "equipment": "band",
         "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0993.gif",
         "id": "0993",
-        "name": "band reverse fly",
+        "name": "mosca inversa de banda",
         "target": "delts"
     },
     {
@@ -348,7 +348,7 @@
         "equipment": "band",
         "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0994.gif",
         "id": "0994",
-        "name": "band reverse wrist curl",
+        "name": "Curl de muñeca invertido con banda",
         "target": "forearms"
     },
     {
@@ -356,7 +356,7 @@
         "equipment": "band",
         "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0996.gif",
         "id": "0996",
-        "name": "band seated hip internal rotation",
+        "name": "banda de rotación interna de cadera sentado",
         "target": "glutes"
     },
     {
@@ -364,7 +364,7 @@
         "equipment": "band",
         "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/1011.gif",
         "id": "1011",
-        "name": "band seated twist",
+        "name": "giro sentado banda",
         "target": "abs"
     },
     {
@@ -372,15 +372,16 @@
         "equipment": "band",
         "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0997.gif",
         "id": "0997",
-        "name": "band shoulder press",
+        "name": "prensa de hombros con banda",
         "target": "delts"
     },
+    
     {
         "bodyPart": "back",
         "equipment": "band",
         "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/1018.gif",
         "id": "1018",
-        "name": "band shrug",
+        "name": "movimiento de hombros",
         "target": "traps"
     },
     {
@@ -388,7 +389,7 @@
         "equipment": "band",
         "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0998.gif",
         "id": "0998",
-        "name": "band side triceps extension",
+        "name": "extensión de tríceps lateral con banda",
         "target": "triceps"
     },
     {
@@ -396,7 +397,7 @@
         "equipment": "band",
         "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0999.gif",
         "id": "0999",
-        "name": "band single leg calf raise",
+        "name": "Elevación de pantorrilla con una sola pierna en banda",
         "target": "calves"
     },
     {
@@ -404,7 +405,7 @@
         "equipment": "band",
         "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/1000.gif",
         "id": "1000",
-        "name": "band single leg reverse calf raise",
+        "name": "Elevación de pantorrilla invertida con una sola pierna con banda",
         "target": "calves"
     },
     {
@@ -412,7 +413,7 @@
         "equipment": "band",
         "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/1001.gif",
         "id": "1001",
-        "name": "band single leg split squat",
+        "name": "sentadilla dividida con una sola pierna con banda",
         "target": "quads"
     },
     {
@@ -420,7 +421,7 @@
         "equipment": "band",
         "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/1004.gif",
         "id": "1004",
-        "name": "band squat",
+        "name": "sentadilla con banda",
         "target": "glutes"
     },
     {
@@ -428,7 +429,7 @@
         "equipment": "band",
         "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/1003.gif",
         "id": "1003",
-        "name": "band squat row",
+        "name": "sentadilla",
         "target": "glutes"
     },
     {
@@ -436,7 +437,7 @@
         "equipment": "band",
         "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/1005.gif",
         "id": "1005",
-        "name": "band standing crunch",
+        "name": "movimiento de pie con banda",
         "target": "abs"
     },
     {
@@ -444,7 +445,7 @@
         "equipment": "band",
         "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/1022.gif",
         "id": "1022",
-        "name": "band standing rear delt row",
+        "name": "deltoides traseros de pie con banda",
         "target": "delts"
     },
     {
@@ -452,7 +453,7 @@
         "equipment": "band",
         "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/1007.gif",
         "id": "1007",
-        "name": "band standing twisting crunch",
+        "name": "banda torciendo el pie",
         "target": "abs"
     },
     {
@@ -468,7 +469,7 @@
         "equipment": "barbell",
         "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0036.gif",
         "id": "0036",
-        "name": "barbell decline wide-grip press",
+        "name": "Prensa de agarre ancho declinado con barra",
         "target": "pectorals"
     },
     {
@@ -476,7 +477,7 @@
         "equipment": "barbell",
         "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0037.gif",
         "id": "0037",
-        "name": "barbell decline wide-grip pullover",
+        "name": "pullover de agarre ancho con barra declinada",
         "target": "lats"
     },
     {
@@ -484,7 +485,7 @@
         "equipment": "barbell",
         "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0038.gif",
         "id": "0038",
-        "name": "barbell drag curl",
+        "name": "Curl de arrastre con barra",
         "target": "biceps"
     },
     {
@@ -492,7 +493,7 @@
         "equipment": "barbell",
         "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/1370.gif",
         "id": "1370",
-        "name": "barbell floor calf raise",
+        "name": "Elevación de pantorrillas en el piso con barra",
         "target": "calves"
     },
     {
@@ -500,7 +501,7 @@
         "equipment": "barbell",
         "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0039.gif",
         "id": "0039",
-        "name": "barbell front chest squat",
+        "name": "sentadilla frontal con barra",
         "target": "glutes"
     },
     {
@@ -508,7 +509,7 @@
         "equipment": "barbell",
         "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0041.gif",
         "id": "0041",
-        "name": "barbell front raise",
+        "name": "elevación frontal con barra",
         "target": "delts"
     },
     {
@@ -516,7 +517,7 @@
         "equipment": "barbell",
         "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0040.gif",
         "id": "0040",
-        "name": "barbell front raise and pullover",
+        "name": "levantamiento frontal con barra y pullover",
         "target": "pectorals"
     },
     {
@@ -524,7 +525,7 @@
         "equipment": "barbell",
         "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0042.gif",
         "id": "0042",
-        "name": "barbell front squat",
+        "name": "sentadilla frontal con barra",
         "target": "glutes"
     },
     {
@@ -532,7 +533,7 @@
         "equipment": "barbell",
         "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0043.gif",
         "id": "0043",
-        "name": "barbell full squat",
+        "name": "sentadilla completa con barra",
         "target": "glutes"
     },
     {
@@ -540,7 +541,7 @@
         "equipment": "barbell",
         "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/1461.gif",
         "id": "1461",
-        "name": "barbell full squat (back pov)",
+        "name": "Sentadilla completa con barra (punto de vista trasero)",
         "target": "glutes"
     },
     {
@@ -548,7 +549,7 @@
         "equipment": "barbell",
         "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/1462.gif",
         "id": "1462",
-        "name": "barbell full squat (side pov)",
+        "name": "sentadilla completa con barra (punto de vista lateral)",
         "target": "glutes"
     },
     {
@@ -556,7 +557,7 @@
         "equipment": "barbell",
         "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/1545.gif",
         "id": "1545",
-        "name": "barbell full zercher squat",
+        "name": "sentadilla zercher completa con barra",
         "target": "glutes"
     }
 ]
